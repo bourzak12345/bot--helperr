@@ -72,5 +72,5 @@ async def help(ctx):
   await ctx.send(embed=embed)
 
 
-my_secret = os.environ['MTE4Mjc5MTI5Nzk1ODk1Mjk4Mw.GdtaT2.0SXRR7lsdnb6AhmhR4y2GNwES8jahmWeArI29A']
+my_secret = os.environ['TOKEN']
 bot.run(my_secret)
